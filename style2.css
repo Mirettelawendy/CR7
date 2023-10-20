@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapid.com/css2?family=Roboto:ital,wgh@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.container{
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer{
+    width: 85%;
+    margin: auto;
+}
+
+#cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+    display: none;
+}
+
+.cookies{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cookies a{
+    color: chartreuse;
+    font-weight: 500;
+}
+#cookies-btn{
+    border-radius: 5px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 3px solid #fff;
+    background-color: black;
+    color: #fff;
+}
