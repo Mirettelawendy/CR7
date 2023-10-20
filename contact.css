@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  a {
+    
+     
+    color: #e1dede;;
+          text-decoration: wavy;
+          font-size: 22px;
+          font-weight: 600;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-decoration-style:wavy;
+     text-decoration: underline;
+  }
+  
+  /* Navigation */
+  nav {
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 80px;
+        background: linear-gradient(to right, #000c0c, #393968);
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.06);
+        z-index: 999;
+        position:sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+  
+       
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 20px;
+  }
+  
+ 
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: auto;
+  }
+  
+  .lg{
+    height: 30px;
+    margin-left: 0%;
+    margin-right: 0px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+  }
+  
+  .contact h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
