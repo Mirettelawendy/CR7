@@ -30,4 +30,4 @@ function setCookie(cname, cvalue, exdays) {
         setCookie("username", user, 365);
       }
     }
-  }
+}

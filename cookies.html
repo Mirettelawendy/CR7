@@ -1,0 +1,31 @@
+        setCookie = (cName, cValue,expDays)
+        let date = new Date();
+        date.setTime(data.getTime() + (expDays * 24 * 60 * 60 * 1000))
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = cName + "=" + cValue + ";" + expires + "; path=/" ; 
+
+        document.querySelector("cookies-btn").addEventListener("click", () => {
+            document.querySelector("#cookies").style.display = "none";
+            setCookie("cookie",true,30)
+        })
+
+        <!DOCTYPE html>
+<html>
+  <head>
+    <title>This is the title of the webpage</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <script src="main.js"></script>
+  </body>
+</html>
+<div class="cookies-eu-banner">
+    By clicking ”OK”, you agree to the storing of cookies on your device to
+    enhance site navigation, analyze site usage, and improve marketing.
+    <button>Accept</button>
+  </div>
+  .hidden {
+    display: none;
+  }
+  <div class="cookies-eu-banner hidden">
+  ...
